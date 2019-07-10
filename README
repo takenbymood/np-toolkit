@@ -1,0 +1,29 @@
+To get started you will need to run the following:
+
+FIRST TIME SETUP:
+
+	source ./build_lammps.sh
+
+TO RUN THE NOTEBOOK:
+
+	run: "jupyter notebook" in terminal
+
+	go to: "http://localhost:8888/tree?" in a web browser
+
+	open np-toolkit.ipynb
+
+TO USE THE NOTEBOOK:
+
+	run all cells in the notebook using "shift+return" or "execute all"
+
+	use the slider to control the interaction strength of your nanoparticle
+
+	switching off "log" will allow you to run multiple simulations at once (don't overdo it)
+
+TO VISUALISE RESULTS:
+
+	an .xyz file will be generated in the parent directory, which can be opened in ovito or vmd or any other visualiser
+
+	the easiest way to view the data in a nice way is to open the base_state ovito program state, and use the "pick new file" button on the right side to choose a new file
+
+	DO NOT USE OPEN FILE in the top left, it will clear the modifiers, if this happens, close ovito and open the base state again
